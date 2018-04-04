@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">JsonParsing-Recyclerview-custom</string>
+
+    <integer-array name="rank">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="country">
+        <item>China</item>
+        <item>India</item>
+        <item>Nepal</item>
+    </string-array>
+
+    <string-array name="population">
+        <item>aaaaaaaaa</item>
+        <item>bbbbbbbbb</item>
+        <item>ccccccccc</item>
+    </string-array>
+
+</resources>
