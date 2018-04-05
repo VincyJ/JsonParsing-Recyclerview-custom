@@ -31,8 +31,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         ListModel listModel = arrayList.get(position);
-        Log.e("VINCY", listModel.getRank() + "");
-        holder.tv1.setText(listModel.getRank() + "");
+        holder.tv1.setText(String.valueOf(listModel.getRank()));
         holder.tv2.setText(listModel.getCountryname());
         holder.tv3.setText(listModel.getPopulation());
     }
